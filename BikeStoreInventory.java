@@ -3,8 +3,10 @@ import java.util.List;
 
 // Define a class to represent the Bike Store Inventory
 class BikeStoreInventory {
+    //ArrayList<generic> 
     private List<Bike> bikes;
 
+    //Constructor Method creates the bike instance bikes object
     public BikeStoreInventory() {
         bikes = new ArrayList<>();
     }
