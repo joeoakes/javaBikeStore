@@ -1,6 +1,9 @@
 // Define a class to represent a Bike
 class Bike {
     private int id;
+    private String brand;
+    private String model;
+    private double price;
 
     public int getId() {
         return id;
@@ -33,10 +36,6 @@ class Bike {
     public void setPrice(double price) {
         this.price = price;
     }
-
-    private String brand;
-    private String model;
-    private double price;
 
     public Bike(int id, String brand, String model, double price) {
         this.id = id;
