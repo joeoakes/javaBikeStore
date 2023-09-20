@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        //Class            object          Constructor Method  
         BikeStoreInventory inventory = new BikeStoreInventory();
 
         // Add some bikes to the inventory
