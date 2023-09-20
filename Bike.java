@@ -1,9 +1,18 @@
 // Define a class to represent a Bike
 class Bike {
+
+    //Data Members, Characteristics of a Bike, Class Level Variables
     private int id;
     private String brand;
     private String model;
     private double price;
+
+    public Bike(int id, String brand, String model, double price) {
+        this.id = id;
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
+    }
 
     public int getId() {
         return id;
@@ -37,12 +46,7 @@ class Bike {
         this.price = price;
     }
 
-    public Bike(int id, String brand, String model, double price) {
-        this.id = id;
-        this.brand = brand;
-        this.model = model;
-        this.price = price;
-    }
+
 
 
 }
