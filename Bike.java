@@ -7,6 +7,7 @@ class Bike {
     private String model;
     private double price;
 
+    //Constructor Method
     public Bike(int id, String brand, String model, double price) {
         this.id = id;
         this.brand = brand;
@@ -14,6 +15,7 @@ class Bike {
         this.price = price;
     }
 
+    //Setters and Getter methods
     public int getId() {
         return id;
     }
@@ -45,8 +47,5 @@ class Bike {
     public void setPrice(double price) {
         this.price = price;
     }
-
-
-
 
 }
